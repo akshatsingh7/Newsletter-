@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEWS GALLERY</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        h1{
+            text-decoration: underline;
+        }
+        ul li{
+            margin-top:25px;
+        }
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .gallery{
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+            gap: 20px;
+        }
+        #nav{
+            height: 60px;
+            text-decoration: none;
+            background-color: aqua;
+            display: flex;
+            gap: 80px;
+            font-size: x-large;
+        }
+        .card{
+            width: 360px;
+            height: 300px;
+            overflow: hidden;
+            border: 1px black solid;
+        }
+        .card-image{
+            height: 180px;
+            width: 100%;
+            object-fit: cover;
+        }
+        .content{
+            padding: 12px;
+        }
+        body{
+            background-color: white;
+                opacity: 1;
+            background-image: radial-gradient(#000000 0.8500000000000001px, #e5e5f7 0.8500000000000001px);
+            background-size: 17px 17px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <ul id="nav" type="none">
+                <img src="https://t4.ftcdn.net/jpg/01/66/52/39/240_F_166523930_XzLaIVUlXha2AB6JgRShWp2je0FBLnJi.jpg" height="60px">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./newsgallery.html"> News Gallery</a></li>
+            </ul>
+        </nav>
+    <div class="content">
+        <h1 align="center">
+            <br>
+             NEWS GALLERY
+             <br>
+             <br> 
+        </h1>
+    </div>
+    <div class="gallery">
+        <div class="card">
+            <div>
+            <img class="card-image" src="https://th-i.thgim.com/public/incoming/kwx5jz/article68395793.ece/alternates/LANDSCAPE_355/IMG_INDIA_bloc_leaders_m_2_1_69D0JDUG.jpg">
+            </div>
+            <div class="content">
+            <h3> SC grants interim bail to Kejriwal in PMLA case, says he should take a call on stepping down as CM</h3>
+            </div>
+        </div>
+        <div class="card">
+            <div >
+            <img class="card-image" src="https://th-i.thgim.com/public/incoming/b5cu8g/article68396127.ece/alternates/LANDSCAPE_320/PTI07_12_2024_000012B.jpg">
+            </div>
+            <div class="content">
+            <h3> Blaze at vest factory in Kolkata; 30 fire tenders deployed</h3>
+            </div>
+        </div>
+        <div class="card">
+            <div >
+            <img class="card-image" src="https://th-i.thgim.com/public/incoming/vqncgq/article68396086.ece/alternates/LANDSCAPE_320/biden1.jpeg">
+            </div>
+            <div class="content">
+            <h3> Joe Biden’s gaffes: Calls Donald Trump as Vice-President
+            </h3>
+            </div>
+        </div>
+        <div class="card">
+            <div >
+            <img class="card-image"src="https://th-i.thgim.com/public/news/cities/Delhi/9k4xd4/article68396306.ece/alternates/LANDSCAPE_320/20240531344L.jpg">
+            </div>
+            <div class="content">
+            <h3> Swati Maliwal assault case: Delhi High Court denies bail to Bibhav Kumar
+            </h3>
+            </div>
+        </div>
+        <div class="card">
+            <div >
+            <img class="card-image"src="https://th-i.thgim.com/public/latest-news/h9potl/article68396742.ece/alternates/LANDSCAPE_355/SamvidhanHatya.jpg">
+            </div>
+            <div class="content">
+            <h3> Government to observe June 25 as ‘Samvidhaan Hatya Diwas’ to mark Emergency</h3>
+            </div>
+        </div>
+        <div class="card">
+            <div >
+            <img class="card-image"src="https://th-i.thgim.com/public/incoming/aymu0c/article66770674.ece/alternates/LANDSCAPE_1200/India_Population_Women_in_the_Workforce_57628.jpg">
+            </div>
+            <div class="content">
+            <h3> India's population to peak in early 2060s to 1.7 billion before declining: United Nations</h3>
+            </div>
+        </div>
+        <div class="card">
+            <div >
+            <img class="card-image"src="https://th-i.thgim.com/public/incoming/xz454l/article68394547.ece/alternates/SQUARE_140/10219_15_3_2022_13_51_56_4_AMF_4363_BPL.JPG">
+            </div>
+            <div class="content">
+            <h3> Centre fields BSF, CISF D-Gs to reiterate commitment on 10% reservation for Agniveers in CAPFs</h3>
+            </div>
+        </div>
+        <div class="card">
+            <div >
+            <img class="card-image"src="https://th-i.thgim.com/public/incoming/blep7i/article68395640.ece/alternates/SQUARE_140/IMG_2022-09-15T085552Z_9_2_1_EHA9EOA9.jpg">
+            </div>
+            <div class="content">
+            <h3> India abstains on UNGA resolution against Russian offensive in Ukraine
+            </h3>
+            </div>
+        </div>
+        <div class="card">
+            <div >
+            <img class="card-image"src="https://th-i.thgim.com/public/incoming/txbnu2/article68395723.ece/alternates/LANDSCAPE_320/NATO_Summit_24399.jpg">
+            </div>
+            <div class="content">
+            <h3> U.S. and South Korea sign joint nuclear deterrence guidelines in face of North Korean threats</h3>
+            </div>
+        </div>
+        <div class="card">
+            <div >
+            <img class="card-image"src="https://th-i.thgim.com/public/incoming/c441io/article68396666.ece/alternates/LANDSCAPE_320/2024-07-12T093237Z_318640783_RC2IT8AEEPVC_RTRMADP_3_NEPAL-POLITICS.JPG">
+            </div>
+            <div class="content">
+            <h3> Nepal PM Pushpa Kamal Dahal ‘Prachanda’ loses vote of confidence in Parliament</h3>
+            </div>
+        </div>
+
+        
+    </div>
+    <footer>
+        <p>© 2024 News. All rights reserved.</p>
+        <p>Contact: info@bestnews.com</p>
+        </footer>
+</body>
+</html>
